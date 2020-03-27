@@ -10,12 +10,5 @@ app.use(express.json());
 
 app.use(routes);
 
-/**
- *  SQL: MySQL, SQLite, PostgreSQL, Oracle, MSQL, DB2
- *  NoSQL: MongoDB, CouchDB, etc
- *
- * Driver: SELECT * FROM users
- * Query Builder: table('users').select('*').where()
- */
 
 app.listen(3333);
